@@ -21,7 +21,7 @@ import java.util.List;
 @Disabled("仅用于本地测试，CI 环境跳过")
 public class PlanCreateSpringTest {
 
-    private static final Logger log = LoggerFactory.getLogger(BrowserUseToolSpringTest.class);
+    private static final Logger log = LoggerFactory.getLogger(PlanCreateSpringTest.class);
 
     @Autowired
     public LlmService llmService;
